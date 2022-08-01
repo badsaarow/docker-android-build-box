@@ -27,7 +27,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: mingc/android-build-box
+      IMAGE_NAME: sungyong/android-build-box
 
     steps:
     - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v3
       with:
-        images: mingc/android-build-box
+        images: sungyong/android-build-box
         labels: |
           org.opencontainers.image.url=https://hub.docker.com/r/mingc/android-build-box
           org.opencontainers.image.vendor=Ming Chen
