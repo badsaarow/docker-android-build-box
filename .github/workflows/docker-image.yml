@@ -38,8 +38,8 @@ jobs:
       with:
         images: sungyong/android-build-box
         labels: |
-          org.opencontainers.image.url=https://hub.docker.com/r/mingc/android-build-box
-          org.opencontainers.image.vendor=Ming Chen
+          org.opencontainers.image.url=https://hub.docker.com/r/sungyong/android-build-box
+          org.opencontainers.image.vendor=sungyong
 
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v1

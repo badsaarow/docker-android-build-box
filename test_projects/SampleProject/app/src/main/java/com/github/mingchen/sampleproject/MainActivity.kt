@@ -1,4 +1,4 @@
-package com.github.mingchen.sampleproject
+package com.github.sungyong.sampleproject
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

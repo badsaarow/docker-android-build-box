@@ -1,4 +1,4 @@
-package com.github.mingchen.sampleproject
+package com.github.sungyong.sampleproject
 
 import org.junit.Test
 
